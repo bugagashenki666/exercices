@@ -10,7 +10,7 @@ public class CountOfDifferentLettersInString {
         //}
 
         int[] countsOfCharacters = new int[Character.MAX_VALUE];
-        String data = "AAABBddHHHTTTNNNJJJUUUTTTYFFDFhhh";
+        String data = "AAABBddHHHTTTNNNJJJUUUTTTYFFDFhhh   \n \r \t\t\t\t\t\t";
         System.out.println("Исходная строка" + data);
         for(int i = 0 ; i < data.length() ; i++)
         {
