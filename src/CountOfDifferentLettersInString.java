@@ -20,7 +20,7 @@ public class CountOfDifferentLettersInString {
         for(int i = 0 ; i < Character.MAX_VALUE ; i ++)
         {
             if(countsOfCharacters[i] > 0 )
-                System.out.println("Количество символов " + (char)i + " = " + countsOfCharacters[i]);
+                System.out.println("Количество символов '" + (char)i + "' = " + countsOfCharacters[i]);
         }
 
 
